@@ -25,7 +25,7 @@ sim_cnt = 0; % counter
 
 % run the model
 
-i = 0.8;  % This is already \delta*2 (use i = 0 for a homogeneous environment)
+i = 0.2;  % This is already \delta*2 (use i = 0 for a homogeneous environment) % Default = 0.8
 
     tic
     mode = 0; % mode: ground (0), end-to-end (1)
